@@ -117,6 +117,8 @@ fn build_crate(
         }
     }
 
+    println!("11111111111{:?}", crate_name.clone());
+
     cmd.arg("rustc");
     cmd.arg("-p").arg(crate_name);
 
